@@ -1,0 +1,63 @@
+body{
+	background-color: #ffcc00;
+	font-family: 'Orbitron', sans-serif;
+}
+
+h1{
+	text-align: center;
+}
+
+.application{
+	width:550px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+p,span,li,input{   
+	font-size:1.5em;
+}
+
+
+
+
+
+
+.osc-controls {
+	border-style:solid;
+	border-color: #cc0066;
+	border-width: 2px;
+	border-radius:10px;
+	margin-bottom:20px;
+}
+
+div{
+	padding:20px;
+}
+
+#oscillator-list li{ /* Descendent selector */
+	list-style-type: none;
+	color: black;
+
+}
+
+#oscillator-list{
+	padding-left:0px;
+}
+
+.selected-waveform{
+	outline:2px solid #66cccc;
+	
+
+}
+
+.logo{
+	text-align: right;
+	margin-right: 130px;
+}
+
+
+
+
